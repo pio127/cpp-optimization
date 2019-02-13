@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 project(cpp_optimization)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 14)
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY
     ${CMAKE_HOME_DIRECTORY}/lib)
