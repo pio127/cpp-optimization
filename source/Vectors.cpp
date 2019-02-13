@@ -20,8 +20,8 @@ struct object {
 	}
 };
 
-int main(int argc, char *argv[]) {
-
+int main(int argc, char *argv[]) 
+{
 	Timer timer;
 	cout << "\nemplace_back with object passing\n";
 	timer.start();

@@ -34,5 +34,6 @@ double Timer::getTime() {
     } else {
         t1Measured = false;
     }
+    
     return estimatedTime.count();
 }
