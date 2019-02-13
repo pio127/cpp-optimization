@@ -8,6 +8,7 @@
 using std::chrono::steady_clock;
 using std::chrono::duration;
 
+
 class Timer
 {
 private:
@@ -19,7 +20,8 @@ private:
 public:
     void start();
     void stop();
-    void printTime();
+    void print();
+    double getTime();
 };
 #endif // ESTIMATE_TIME
 
