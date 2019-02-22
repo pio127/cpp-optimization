@@ -21,7 +21,7 @@ struct object {
 
 int main(int argc, char *argv[]) {
     Timer timer;
-    std::cout << "\nemplace_back with object passing\n";
+    std::cout << "emplace_back with object passing\n";
     timer.start();
     std::vector<object> vec1{};
     for(int x{0}; x<20; ++x) {
