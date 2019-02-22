@@ -12,5 +12,7 @@ add_library(Utilities SHARED utilities/timer.cpp
                       utilities/timer.h)
 
 add_executable(vectors source/Vectors.cpp)
+add_executable(printing source/Printing.cpp)
 
 target_link_libraries(vectors Utilities)
+target_link_libraries(printing Utilities)
