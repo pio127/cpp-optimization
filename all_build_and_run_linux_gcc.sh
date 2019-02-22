@@ -10,7 +10,8 @@ cd ../bin
 echo
 
 for filename in $(ls *); do
-    if [[ -x "$filename" ]; then
+    if [[ -x "$filename" ]]
+	then
         echo ------------------------------------------
         echo "         Running" $filename
         echo ------------------------------------------
