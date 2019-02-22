@@ -8,8 +8,8 @@
 
 
 int main(int argc, char *argv[]) {
-    std::ofstream output1("output1.txt", std::ofstream::out);
-    std::ofstream output2("output2.txt", std::ofstream::out);
+    std::ofstream output1("text/output1.txt", std::ofstream::out);
+    std::ofstream output2("text/output2.txt", std::ofstream::out);
     Timer timer;
     double first, second;
     timer.start();
