@@ -7,6 +7,8 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY
     ${CMAKE_HOME_DIRECTORY}/bin)
+include_directories(utilities)
+
 
 add_library(Utilities SHARED utilities/timer.cpp
                       utilities/timer.h)

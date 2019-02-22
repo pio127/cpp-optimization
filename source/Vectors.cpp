@@ -1,8 +1,5 @@
-#include <iostream>
 #include <vector>
-#include <chrono>
-#include <iomanip>
-#include "../utilities/timer.h"
+#include "timer.h"
 
 unsigned int numOfCalls{0};
 
