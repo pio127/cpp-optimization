@@ -1,5 +1,5 @@
 # C++ optimization examples
 
-### iostream printing optimization
+ - iostream printing 
 
-### std::vectors optimization
+ - std::vector 
