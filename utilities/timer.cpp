@@ -24,7 +24,7 @@ void Timer::print() {
     } else {
         t1Measured = false;
     }
-    std::cout << std::fixed << "Estimated time: " << estimatedTime.count() << "s \n";
+    std::cout << std::fixed << "Estimated time: " << estimatedTime.count() << " s \n";
 }
 
 double Timer::getTime() {
